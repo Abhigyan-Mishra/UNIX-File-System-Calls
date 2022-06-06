@@ -49,8 +49,8 @@ Where ,
 | Directory | `mkdir`, `chmod`, `stat` |
 | Advanced System Calls | `dup` (`dup2`), `pipe`, `unlink` |
 
-## About
-    Author: Abhigyan Mishra
+## Author
+    Name: Abhigyan Mishra
     Roll Number: 01
     M.Sc. Computer Science
     Department of Computer Science, University of Delhi
