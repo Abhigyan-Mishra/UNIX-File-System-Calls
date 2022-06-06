@@ -20,20 +20,20 @@ Where ,
 #### <Operation>
 ##### File Operation
 - create : Create New File 
-    - <Parameter> : <File Name> <Permissions>
+    - < Parameter > : <File Name> <Permissions>
 - open / close : Open or Close a file.
-    - <Parameters> : <File Name> <Mode (read/write)>
+    - < Parameters > : <File Name> <Mode (read/write)>
 - write : Write data to a file.
-    - <Parameter> : <File Name> <Index of Starting> <Size> / <Content>
+    - < Parameter > : <File Name> <Index of Starting> <Size> / <Content>
 - read : Read data from a file.
-    - <Parameter> : <File Name> <Index of Starting> <Size>
+    - < Parameter > : <File Name> <Index of Starting> <Size>
 - chmod : Change permissions of a file
-    - <parameters>: <file name> <New Permissions>
+    - < Parameters>: <file name> <New Permissions>
 - info : Print imformation related to the file.
     - <parameter>: <file name>
 ##### Pipes OPeration
 - pipe : Create a unamed/named pipe
-    - <parameter>: unnamed/named <name_of_pipe>
+    - <parameter> : unnamed/named <name_of_pipe>
 ##### Directory Operation
 - create : Create new directory
     - <parameter> : create <File name> <Permission>
