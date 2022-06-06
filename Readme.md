@@ -20,27 +20,27 @@ Where ,
 #### <Operation>
 ##### File Operation
 - create : Create New File 
-    - < Parameter > : <File Name> <Permissions>
+    - < Parameter > : < File Name > < Permissions >
 - open / close : Open or Close a file.
-    - < Parameters > : <File Name> <Mode (read/write)>
+    - < Parameters > : <File Name> < Mode (read/write) >
 - write : Write data to a file.
-    - < Parameter > : <File Name> <Index of Starting> <Size> / <Content>
+    - < Parameter > : < File Name > < Index of Starting> <Size> / <Content >
 - read : Read data from a file.
-    - < Parameter > : <File Name> <Index of Starting> <Size>
+    - < Parameter > : < File Name > < Index of Starting > < Size >
 - chmod : Change permissions of a file
-    - < Parameters>: <file name> <New Permissions>
+    - < Parameters>: < file name > < New Permissions >
 - info : Print imformation related to the file.
-    - <parameter>: <file name>
+    - < Parameter >: < file name >
 ##### Pipes OPeration
 - pipe : Create a unamed/named pipe
-    - <parameter> : unnamed/named <name_of_pipe>
+    - < Parameter > : unnamed/named <name_of_pipe>
 ##### Directory Operation
 - create : Create new directory
-    - <parameter> : create <File name> <Permission>
+    - < Parameter > : create < File name > < Permission >
 - chmod : Change directory permission
-    - <parametr> : <file name> <New Permission>
+    - < Parameter > : < file name > < New Permission >
 - info : Print imformation related to the directory.
-    - <parameter>: <file name>
+    - < Parameter >: < file name >
 ## System Calls implemented 
 | Task | System Call(s) Used |
 |---|---|
@@ -50,8 +50,8 @@ Where ,
 | Advanced System Calls | `dup` (`dup2`), `pipe`, `unlink` |
 
 ## About
-Author: Abhigyan Mishra
-Roll Number: 01
-M.Sc. Computer Science
-Department of Computer Science, University of Delhi
+    Author: Abhigyan Mishra
+    Roll Number: 01
+    M.Sc. Computer Science
+    Department of Computer Science, University of Delhi
 
